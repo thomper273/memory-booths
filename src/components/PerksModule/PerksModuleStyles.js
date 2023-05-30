@@ -94,7 +94,7 @@ export const PerkStyles = styled.aside`
 
     @media (min-width: 1024px) {
       width: 300px;
-      height: 60px;
+      height: 300px;
     }
 
     img {

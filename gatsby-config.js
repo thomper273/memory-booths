@@ -8,14 +8,14 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: "Barcadia",
-    description: "A super-fast site using GatsbyJS",
-    author: "Morgan Baker",
-    twitterUsername: "barcadia",
-    facebookUsername: "barcadia",
-    instagramUsername: "barcadia",
-    linkedinUsername: "morgan-baker-development",
-    image: "/macbook-color.jpg",
+    title: "memorybooth.ca",
+    description: "Photobooth rentals in Belleville, Kingston, and the GTA",
+    author: "Memory Booth",
+    twitterUsername: "#",
+    facebookUsername: "#",
+    instagramUsername: "#",
+    linkedinUsername: "#",
+    image: "assets/bg-camera-hand.png",
     siteUrl: "https://barcadia.netlify.com",
     developerName: "Morgan Baker Development",
     developerUrl: "https://www.morganbaker.dev",

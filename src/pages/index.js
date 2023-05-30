@@ -11,18 +11,15 @@ import LatestPosts from "../components/Post/LatestPosts"
 const Index = () => {
   return (
     <>
-      <Seo title="Home" />
+      <Seo title="Memory Booth - Photobooth rentals in Kingston and Toronto areas" />
       <Layout>
         <BannerModule
-          title="Welcome to Barcadia"
-          subTitle="Using a combination of Gatsby and Contentful, Barcadia is ready to deploy and simple to use."
+          title="Welcome to Memory Booth"
+          subTitle="Capture your memories with our photo booths for any type of event. "
         />
         <BasicTextModule
-          title="A super-fast theme that is easy to get started, using the power of
-            GatsbyJS"
-          content="Using modern CSS properties such as grid, this theme is optmised for
-            speed and mobile devices. Giving users an excellent experience on
-            any device. Future-proofing your product."
+          title="Bring fun & excitement to your event and create life long memories"
+          content="Our full-service photobooth rentals are perfet for any event. Our team will ensure a memorable event, we will deliver, set-up and manage the photobooth for the duration of the event."
           link="/products"
           linkText="View Products"
         />
@@ -30,12 +27,12 @@ const Index = () => {
           <Perk title="The Title" content="The content" />
         </PerksModule>
         <Features
-          title="Featured Products from Barcadia."
-          introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
+          title="Our Photo Booths"
+          introduction="Our current photo booth rental offering - check back often as we are expanding."
         />
         <LatestPosts
-          title="The Latest from Barcadia"
-          introduction="Cras scelerisque, tellus sed gravida tincidunt, velit tellus blandit justo, nec viverra augue erat in erat. Maecenas iaculis sed purus non fringilla."
+          title="More information"
+          introduction="Pricing, FAQ, terms."
         />
       </Layout>
     </>

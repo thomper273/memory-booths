@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import { FaqStyles } from "./FaqStyles"
 import { MdExpandMore as Chevron } from "react-icons/md"
-import { renderRichText } from "gatsby-source-contentful/rich-text"
 import { motion } from "framer-motion"
 
 const Faq = ({ title, description }) => {
@@ -19,7 +18,7 @@ const Faq = ({ title, description }) => {
   }
 
   const toggleInfo = () => {
-    setInfo(showInfo => !showInfo)
+    setInfo((showInfo) => !showInfo)
   }
   return (
     <FaqStyles className={showInfo ? `${"faq-open"}` : `${"faq-closed"}`}>
@@ -36,7 +35,7 @@ const Faq = ({ title, description }) => {
           variants={faqVariants}
           className="answer"
         >
-          {renderRichText(description)}
+          {description}
         </motion.div>
       )}
     </FaqStyles>
