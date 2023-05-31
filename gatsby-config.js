@@ -9,7 +9,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "Memory Booths",
-    description: "Photobooth rentals in Belleville, Kingston, and the GTA",
+    description: "Photobooth rentals in Belleville, Ontario",
     author: "Memory Booth",
     twitterUsername: "#",
     facebookUsername: "#",

@@ -11,11 +11,11 @@ import LatestPosts from "../components/Post/LatestPosts"
 const Index = () => {
   return (
     <>
-      <Seo title="Memory Booth - Photobooth rentals in Kingston and Toronto areas" />
+      <Seo title="Memory Booth - Photobooth rentals in Belleville, Ontario" />
       <Layout>
         <BannerModule
           title="Welcome to Memory Booth"
-          subTitle="Capture your memories with our photo booths for any type of event. "
+          subTitle="Create a memorable event with outstanding results using custom photo and video experiences!"
         />
         <BasicTextModule
           title="Bring fun & excitement to your event and create life long memories"

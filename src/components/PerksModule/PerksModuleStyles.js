@@ -81,8 +81,8 @@ export const PerkStyles = styled.aside`
     margin-bottom: 0;
   }
   .gatsby-image-wrapper {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
