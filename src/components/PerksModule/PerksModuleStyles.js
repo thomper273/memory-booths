@@ -81,15 +81,15 @@ export const PerkStyles = styled.aside`
     margin-bottom: 0;
   }
   .gatsby-image-wrapper {
-    width: 170px;
-    height: 45px;
+    width: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto calc(var(--gap) / 2) auto;
 
     @media (min-width: 375px) {
-      width: 200px;
+      width: 300px;
     }
 
     @media (min-width: 1024px) {
