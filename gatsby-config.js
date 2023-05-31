@@ -33,12 +33,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        icon: "static/favicon.ico",
-      },
-    },
-    {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://barcadia.netlify.com",
