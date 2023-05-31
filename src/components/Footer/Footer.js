@@ -18,6 +18,18 @@ const Footer = () => {
     <FooterStyles style={{ marginBottom: 0 }} className="section">
       <div className="container container__tight">
         <FooterMenuStyles className="footer__menu">
+          <h5>Contact</h5>
+          <ul>
+            <li>
+              <a href="tel:6138274368">(613) 827-4368</a>
+            </li>
+            <li>
+              <a href="mailto:info@memorydreams.ca">E-mail</a>
+            </li>
+            <li>100 Dewalt Place, Belleville, ON</li>
+          </ul>
+        </FooterMenuStyles>
+        <FooterMenuStyles className="footer__menu">
           <h5>Links</h5>
           <ul>
             {menuItems.map((item, index) => {
@@ -62,7 +74,7 @@ const Footer = () => {
         siteMeta.linkedinUsername ? (
           <FooterMenuStyles className="footer__menu social__menu">
             <h5>
-              Follow Barcadia<span>.</span>
+              Follow Us<span>.</span>
             </h5>
             <ul>
               {siteMeta.twitterUsername && (
@@ -116,19 +128,7 @@ const Footer = () => {
         )}
       </div>
       <CopyrightStyles>
-        <div className="container container__tight">
-          <p>
-            Designed & developed by{" "}
-            <a
-              href={siteMeta.developerUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {siteMeta.developerName}
-            </a>
-            <span>.</span>
-          </p>
-        </div>
+        <div className="container container__tight"></div>
       </CopyrightStyles>
     </FooterStyles>
   )

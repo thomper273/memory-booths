@@ -8,7 +8,7 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: "memorybooth.ca",
+    title: "Memory Booths",
     description: "Photobooth rentals in Belleville, Kingston, and the GTA",
     author: "Memory Booth",
     twitterUsername: "#",
@@ -17,8 +17,8 @@ module.exports = {
     linkedinUsername: "#",
     image: "assets/bg-camera-hand.png",
     siteUrl: "https://barcadia.netlify.com",
-    developerName: "Morgan Baker Development",
-    developerUrl: "https://www.morganbaker.dev",
+    developerName: "Jeremy Thompson",
+    developerUrl: "https://www.jeremythompson.ca",
   },
   /* Your site config here */
   plugins: [
@@ -30,6 +30,12 @@ module.exports = {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "static/favicon.ico",
       },
     },
     {

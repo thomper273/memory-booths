@@ -1,7 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { PerksModuleStyles } from "./PerksModuleStyles"
-import { MdOutlineClose as Cross } from "react-icons/md"
 import Perk from "./Perk"
 
 const PerksModule = () => {
