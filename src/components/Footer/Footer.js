@@ -26,7 +26,7 @@ const Footer = () => {
             <li>
               <a href="mailto:info@memorydreams.ca">E-mail</a>
             </li>
-            <li>100 Dewalt Place, Belleville, ON</li>
+            <li>105B Dewal Place, Belleville, ON</li>
           </ul>
         </FooterMenuStyles>
         <FooterMenuStyles className="footer__menu">

@@ -15,11 +15,11 @@ const Index = () => {
       <Layout>
         <BannerModule
           title="Welcome to Memory Booth"
-          subTitle="Create a memorable event with outstanding results using custom photo and video experiences!"
+          subTitle="Create a snapshot in time to cherish forever through custom photo and video experiences."
         />
         <BasicTextModule
-          title="Bring fun & excitement to your event and create life long memories"
-          content="Our full-service photobooth rentals are perfet for any event. Our team will ensure a memorable event, we will deliver, set-up and manage the photobooth for the duration of the event."
+          title="You bring the fun, we'll document it"
+          content="Our full-service photobooth rentals are perfect for any occasion. We will ensure a stress-free experience by taking care of the delivery, setup and booth throughout the event."
           link="/products"
           linkText="View Products"
         />

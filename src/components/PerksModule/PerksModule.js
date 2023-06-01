@@ -17,7 +17,7 @@ const PerksModule = () => {
       <div className="container container__tight">
         <Perk
           title="All Occasions"
-          content="From weddings to corporate events we will ensure much fun and excitement will be had and memories captured."
+          content="Smile, you're on camera: Our booths capture the spirit of every event, from weddings to corporate events to school functions, proms and birthday parties."
         >
           <StaticImage
             src="../../../static/logos/ivan.png"

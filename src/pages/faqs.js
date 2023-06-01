@@ -47,7 +47,7 @@ const faqs = () => {
         <SimpleBanner title="Frequently Asked Questions">
           <StaticImage
             className="banner__image"
-            src="../../static/macbook-dark.jpg"
+            src="../../static/assets/bg-faq-2.png"
             alt="Apple Macbook Dark"
           />
         </SimpleBanner>
